@@ -1,5 +1,7 @@
 https://05ching.github.io/American-car-game/
 
+程式碼和prompt檔案放上面
+
 # American Racer 🏎️
 
 一款以 **HTML / CSS / JavaScript** 製作的美式賽車風格小遊戲，玩家可以用鍵盤左右移動賽車，閃避前方的車輛並收集金幣。  
