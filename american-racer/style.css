@@ -1,0 +1,26 @@
+:root{
+  --road:#1f1f1f; --edge:#0e0e0e; --line:#f5d142;
+  --player:#21bf73; --enemy:#e74c3c; --coin:#f5c84b;
+  --win:#cde8ff; --chrome:#eaeaea;
+  --ink:#fff; --muted:#aab0bd;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{display:grid;place-items:center;min-height:100vh;background:linear-gradient(180deg,#0b0b10,#121219);font:600 15px/1.5 ui-sans-serif,system-ui;color:var(--ink)}
+.wrap{width:min(440px,96vw);padding:14px;border-radius:16px;background:#000;box-shadow:0 26px 70px rgba(0,0,0,.55);position:relative;overflow:hidden}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+h1{font-size:18px;letter-spacing:.3px}
+.btn{border:0;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer}
+.btn.start{background:#21bf73;color:#00140a}
+.btn.pause{background:#f39c12;color:#000}
+canvas{display:block;width:100%;height:auto;border-radius:12px;background:var(--road)}
+.hud{display:flex;justify-content:space-between;margin-top:8px;font-size:14px;color:var(--muted)}
+.overlay{
+  position:absolute;inset:14px;border-radius:12px;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(0,0,0,.78),rgba(0,0,0,.82));
+  backdrop-filter:blur(4px);z-index:5
+}
+.overlay.hidden{display:none !important;} /* ← 強制隱藏 */
+.card{max-width:90%;text-align:center}
+.card h2{margin-bottom:8px}
+.rules{color:var(--muted);font-weight:600;font-size:14px;margin:8px 0 12px}
+kbd{background:#161820;border:1px solid #232633;border-radius:6px;padding:2px 6px}
