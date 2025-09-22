@@ -1,6 +1,6 @@
-https://05ching.github.io/American-car-game/
+程式碼和prompt檔案在上面！
 
-程式碼和prompt檔案放上面
+https://05ching.github.io/American-car-game/
 
 # American Racer 🏎️
 
